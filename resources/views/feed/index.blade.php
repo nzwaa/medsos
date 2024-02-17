@@ -67,12 +67,13 @@
             {{ $feeds->links() }}
         </div>
     </div>
-</div>
     <div class="container text-center mt-4">
         <div class="fixed-button">
             <a class="btn btn-success" href="{{ route('feed.create') }}">Add</a>
         </div>
     </div>
+</div>
+    
     
     <!-- Bootstrap JavaScript -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
