@@ -26,6 +26,7 @@ class FeedController extends Controller
             'video' => ['required', 'file', 'mimetypes:video/mp4,video/mpeg,video/quicktime', 'max:10240'],
             'caption' => ['nullable', 'string', 'max:100'], 
         ], [
+            'video.max' => 'Ukuran video tidak boleh lebih dari 10 MB.',
             'caption.max' => 'Caption tidak boleh lebih dari 100 karakter.'
         ]);
 
